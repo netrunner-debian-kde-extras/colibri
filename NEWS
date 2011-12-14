@@ -1,0 +1,47 @@
+# 2011.09.25 - 0.2.2
+## Fixes
+- Plug three small mem leaks. Should also fix a rare crasher. (Aurélien Gâteau)
+
+## Translations
+- Brasilian Portuguese (Caio Romão)
+- Slovakian (Slavko)
+- Italian (Federico Chiacchiaretta)
+- Czech (Pavel Fric)
+- Spanish (gejo)
+
+# 2010.08.06 - 0.2.1
+## Fixes
+- Disable KWin shadows.
+- Quit if we can't register as the notification handler.
+
+# 2010.08.05 - 0.2.0
+## New features
+- When a second notification arrives from the same application, using the same
+  title, append it to the existing notification.
+- Notifications use blurred background on KDE 4.5.
+- Notifications use a background halo behind text, similar to what Plasma
+  tooltips do since KDE 4.4, as well as the Plasma theme foreground color.
+- Implemented support for the replacesId parameter.
+- It is now possible to specify the screen where the notifications will appear.
+- A "Preview" button has been added to the KCM.
+- It is now possible to start Colibri from within the KCM.
+- Turkish translation by Ozan Çağlayan.
+- German translation by Michael Gangolf.
+- Serbian translation for desktop file by Mladen Pejaković.
+
+## Fixes
+- KCM is now translatable.
+- The KCM has moved (again!) to the notification group.
+- Use an autostart file to start Colibri instead of relying on the DBus service
+  system. This solves file conflict problems with other notification systems and
+  ensures Colibri is started when the first KDE notification is sent.
+- Fixed linking with gold.
+
+# 2010.02.16 - 0.1.1
+- Moved the KCM to the Desktop category.
+- Emit the NotificationClosed() signal when a notification is closed. This fixes
+  double notifications from Banshee.
+- Implement the CloseNotification() method.
+
+# 2009.12.15 - 0.1.0
+- First release.
