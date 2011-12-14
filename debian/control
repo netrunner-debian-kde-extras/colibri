@@ -1,7 +1,8 @@
 Source: colibri
 Section: kde
 Priority: extra
-Maintainer: Ritesh Raj Sarraf <rrs@debian.org>
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: Ritesh Raj Sarraf <rrs@debian.org>
 Build-Depends: debhelper (>= 7.0.50~), libqt4-dev (>= 4.4), kdelibs-bin, cmake, kdelibs5-dev, kdebase-workspace-dev, libx11-dev, libxext-dev
 Standards-Version: 3.9.2
 Homepage: http://kde-apps.org/content/show.php?content=117147
