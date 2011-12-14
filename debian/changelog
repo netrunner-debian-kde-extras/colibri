@@ -1,0 +1,5 @@
+colibri (0.2.2-1) UNRELEASED; urgency=low
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- Ritesh Raj Sarraf <rrs@debian.org>  Tue, 22 Nov 2011 02:49:48 +0530
