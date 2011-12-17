@@ -9,7 +9,7 @@ Homepage: http://kde-apps.org/content/show.php?content=117147
 
 Package: kde-notification-colibri
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: passive notification system for kde4
  colibri is a passive notification system for KDE4 desktop
  .
