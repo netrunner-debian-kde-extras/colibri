@@ -1,33 +1,31 @@
-FIND_PROGRAM(GETTEXT_MSGFMT_EXECUTABLE msgfmt)
+# The pofiles macro creates in some versions same name targets
+# which since cmake 2.8 leads to target clashes.
+# Hence force the old policy for all po directories.
+# http://public.kitware.com/Bug/view.php?id=12952
+cmake_policy(SET CMP0002 OLD)
 
-IF(NOT GETTEXT_MSGFMT_EXECUTABLE)
-    MESSAGE(
-"------
-NOTE: msgfmt not found. Translations will *not* be installed
-------")
-ELSE(NOT GETTEXT_MSGFMT_EXECUTABLE)
-
-    SET(catalogname colibri)
-
-    ADD_CUSTOM_TARGET(translations ALL)
-
-    FILE(GLOB PO_FILES *.po)
-
-    FOREACH(_poFile ${PO_FILES})
-        GET_FILENAME_COMPONENT(_poFileName ${_poFile} NAME)
-        STRING(REGEX REPLACE "^${catalogname}_?" "" _langCode ${_poFileName} )
-        STRING(REGEX REPLACE "\\.po$" "" _langCode ${_langCode} )
-
-        IF( _langCode )
-            GET_FILENAME_COMPONENT(_lang ${_poFile} NAME_WE)
-            SET(_gmoFile ${CMAKE_CURRENT_BINARY_DIR}/${_lang}.gmo)
-
-            ADD_CUSTOM_COMMAND(TARGET translations
-                COMMAND ${GETTEXT_MSGFMT_EXECUTABLE} --check -o ${_gmoFile} ${_poFile}
-                DEPENDS ${_poFile})
-            INSTALL(FILES ${_gmoFile} DESTINATION ${LOCALE_INSTALL_DIR}/${_langCode}/LC_MESSAGES/ RENAME ${catalogname}.mo)
-        ENDIF( _langCode )
-
-    ENDFOREACH(_poFile ${PO_FILES})
-
-ENDIF(NOT GETTEXT_MSGFMT_EXECUTABLE)
+find_package(Gettext REQUIRED)
+if (NOT GETTEXT_MSGMERGE_EXECUTABLE)
+MESSAGE(FATAL_ERROR "Please install msgmerge binary")
+endif (NOT GETTEXT_MSGMERGE_EXECUTABLE)
+if (NOT GETTEXT_MSGFMT_EXECUTABLE)
+MESSAGE(FATAL_ERROR "Please install msgmerge binary")
+endif (NOT GETTEXT_MSGFMT_EXECUTABLE)
+add_subdirectory(pt)
+add_subdirectory(pt_BR)
+add_subdirectory(uk)
+add_subdirectory(fi)
+add_subdirectory(sl)
+add_subdirectory(et)
+add_subdirectory(ru)
+add_subdirectory(de)
+add_subdirectory(nl)
+add_subdirectory(cs)
+add_subdirectory(sk)
+add_subdirectory(fr)
+add_subdirectory(es)
+add_subdirectory(mr)
+add_subdirectory(tr)
+add_subdirectory(sv)
+add_subdirectory(da)
+add_subdirectory(it)

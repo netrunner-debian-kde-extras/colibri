@@ -1,0 +1,127 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Michael Gangolf <miga@migaweb.de>, 2010.
+# Vit Pelcak <vit@pelcak.org>, 2013.
+#
+# Pavel Fric, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-04-30 05:21+0200\n"
+"PO-Revision-Date: 2013-04-30 11:52+0200\n"
+"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Pavel Fric"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "pavelfric@seznam.cz"
+
+#: app/about.h:28
+msgid "Light notification system for KDE4"
+msgstr "Jednoduchý systém oznámení pro KDE4"
+
+#: app/about.h:33
+msgid "Colibri"
+msgstr "Colibri"
+
+#: app/about.h:37
+msgid "(C) 2009-2013 Aurélien Gâteau"
+msgstr "(C) 2009-2013 Aurélien Gâteau"
+
+#: app/about.h:39
+msgid "Aurélien Gâteau"
+msgstr "Aurélien Gâteau"
+
+#: app/main.cpp:40
+msgid "Quit after one popup. Only useful when running with Valgrind"
+msgstr "Ukončit po upozornění. Použitelné pouze při běhu s Valgrindem"
+
+#: kcm/controlmodule.cpp:71
+msgid "Start Colibri"
+msgstr "Spustit Colibri"
+
+#: kcm/controlmodule.cpp:72
+msgid "Start the Colibri notification system"
+msgstr "Spustit oznamovací systém Colibri"
+
+#: kcm/controlmodule.cpp:158
+msgid "Colibri is running."
+msgstr "Colibri běží."
+
+#: kcm/controlmodule.cpp:163
+msgid "No notification system is running."
+msgstr "Neběží žádný oznamovací systém."
+
+#: kcm/controlmodule.cpp:166
+#, kde-format
+msgid ""
+"The current notification system is %1. You must stop it to be able to start "
+"Colibri."
+msgstr ""
+"Nynější systém oznámení je %1. Nejprve jej musíte zastavit, abyste mohl "
+"spustit Colibri."
+
+#: kcm/controlmodule.cpp:209
+msgctxt "@title"
+msgid "Preview"
+msgstr "Náhled"
+
+#: kcm/controlmodule.cpp:210
+msgid "This is a preview of a Colibri notification"
+msgstr "Toto je náhled oznámení pomocí Colibri"
+
+#: kcm/controlmodule.cpp:224
+msgid "Screen under mouse"
+msgstr "Obrazovka pod myší"
+
+#: kcm/controlmodule.cpp:228
+#, kde-format
+msgid "Screen %1"
+msgstr "Obrazovka %1"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: kcm/controlmodule.ui:17
+msgid "Status"
+msgstr "Stav"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoStart)
+#: kcm/controlmodule.ui:26
+msgid "Start Colibri at login"
+msgstr "Spustit Colibri při přihlášení"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: kcm/controlmodule.ui:36
+msgid "Appearance"
+msgstr "Vzhled"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kcm/controlmodule.ui:57
+msgid "Notification position:"
+msgstr "Poloha oznámení:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kcm/controlmodule.ui:87
+msgid "Notification screen:"
+msgstr "Obrazovka oznámení:"
+
+#. i18n: ectx: property (text), widget (QPushButton, previewButton)
+#: kcm/controlmodule.ui:116
+msgctxt "@action:button"
+msgid "Preview"
+msgstr "Náhled"
+
+#. i18n: ectx: property (text), widget (QLabel, previewImpossibleLabel)
+#: kcm/controlmodule.ui:144
+msgid "Cannot preview because Colibri is not running."
+msgstr "Náhled nelze zobrazit, protože Colibri neběží."

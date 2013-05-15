@@ -1,0 +1,127 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Lasse Liehu <lasse.liehu@gmail.com>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-04-30 05:21+0200\n"
+"PO-Revision-Date: 2013-04-30 13:10+0300\n"
+"Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
+"Language-Team: Finnish <lokalisointi@lists.coss.fi>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Lasse Liehu"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "lasse.liehu@gmail.com"
+
+#: app/about.h:28
+msgid "Light notification system for KDE4"
+msgstr "Kevyt ilmoitusjärjestelmä KDE 4:lle"
+
+#: app/about.h:33
+msgid "Colibri"
+msgstr "Colibri"
+
+#: app/about.h:37
+msgid "(C) 2009-2013 Aurélien Gâteau"
+msgstr "© 2009–2013 Aurélien Gâteau"
+
+#: app/about.h:39
+msgid "Aurélien Gâteau"
+msgstr "Aurélien Gâteau"
+
+#: app/main.cpp:40
+msgid "Quit after one popup. Only useful when running with Valgrind"
+msgstr ""
+"Lopeta yhden ponnahdusikkunan jälkeen. Hyödyllinen vain ajettaessa "
+"Valgrindilla"
+
+#: kcm/controlmodule.cpp:71
+msgid "Start Colibri"
+msgstr "Käynnistä Colibri"
+
+#: kcm/controlmodule.cpp:72
+msgid "Start the Colibri notification system"
+msgstr "Käynnistä Colibri-ilmoitusjärjestelmä"
+
+#: kcm/controlmodule.cpp:158
+msgid "Colibri is running."
+msgstr "Colibri on käynnissä."
+
+#: kcm/controlmodule.cpp:163
+msgid "No notification system is running."
+msgstr "Mitään ilmoitusjärjestelmää ei ole käynnissä."
+
+#: kcm/controlmodule.cpp:166
+#, kde-format
+msgid ""
+"The current notification system is %1. You must stop it to be able to start "
+"Colibri."
+msgstr ""
+"Nykyinen ilmoitusjärjestelmä on %1. Se täytyy ensin pysäyttää Colibrin "
+"käynnistämiseksi."
+
+#: kcm/controlmodule.cpp:209
+msgctxt "@title"
+msgid "Preview"
+msgstr "Esikatselu"
+
+#: kcm/controlmodule.cpp:210
+msgid "This is a preview of a Colibri notification"
+msgstr "Tämä on Colibri-ilmoituksen esikatselu"
+
+#: kcm/controlmodule.cpp:224
+msgid "Screen under mouse"
+msgstr "Näyttö, jolla hiiri on"
+
+#: kcm/controlmodule.cpp:228
+#, kde-format
+msgid "Screen %1"
+msgstr "Näyttö %1"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: kcm/controlmodule.ui:17
+msgid "Status"
+msgstr "Tila"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoStart)
+#: kcm/controlmodule.ui:26
+msgid "Start Colibri at login"
+msgstr "Käynnistä Colibri kirjauduttaessa"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: kcm/controlmodule.ui:36
+msgid "Appearance"
+msgstr "Ulkoasu"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kcm/controlmodule.ui:57
+msgid "Notification position:"
+msgstr "Ilmoituksen sijainti:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kcm/controlmodule.ui:87
+msgid "Notification screen:"
+msgstr "Ilmoituksen näyttö:"
+
+#. i18n: ectx: property (text), widget (QPushButton, previewButton)
+#: kcm/controlmodule.ui:116
+msgctxt "@action:button"
+msgid "Preview"
+msgstr "Esikatsele"
+
+#. i18n: ectx: property (text), widget (QLabel, previewImpossibleLabel)
+#: kcm/controlmodule.ui:144
+msgid "Cannot preview because Colibri is not running."
+msgstr "Ei voida esikatsella, koska Colibri ei ole käynnissä."
