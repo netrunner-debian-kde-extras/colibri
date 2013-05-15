@@ -1,2 +1,2 @@
-# upstream seems to ship with kde-apps.
-# TODO: Need to figure out a way to track it
+version=3
+http://qa.debian.org/cgi-bin/fakeupstream.cgi?upstream=kdeapps/117147 .*=117147-colibri-(\d.*)\.(?:tgz|tbz2|txz|tar\.(?:gz|bz2|xz))
