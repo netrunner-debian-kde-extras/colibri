@@ -2,7 +2,7 @@
 include(PkgConfigGetVar)
 
 set(colibri_SRCS
-    label.cpp
+    hlayout.cpp
     main.cpp
     notificationmanager.cpp
     notificationwidget.cpp

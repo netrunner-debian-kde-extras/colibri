@@ -1,0 +1,131 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Chetan Khona <chetan@kompkin.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-04-30 05:21+0200\n"
+"PO-Revision-Date: 2013-04-06 10:54+0530\n"
+"Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
+"Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
+"Language: mr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "चेतन खोना"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "chetan@kompkin.com"
+
+#: app/about.h:28
+msgid "Light notification system for KDE4"
+msgstr "केडीई4 करिता हलकी सूचना प्रणाली"
+
+#: app/about.h:33
+msgid "Colibri"
+msgstr "कोलिब्री"
+
+#: app/about.h:37
+#, fuzzy
+#| msgid "(C) 2009-2010 Aurélien Gâteau"
+msgid "(C) 2009-2013 Aurélien Gâteau"
+msgstr "(C) 2009-2010 ओरेलीन गेत्यू"
+
+#: app/about.h:39
+msgid "Aurélien Gâteau"
+msgstr "ओरेलीन गेत्यू"
+
+#: app/main.cpp:40
+msgid "Quit after one popup. Only useful when running with Valgrind"
+msgstr ""
+
+#: kcm/controlmodule.cpp:71
+msgid "Start Colibri"
+msgstr "कोलिब्री सुरु करा"
+
+#: kcm/controlmodule.cpp:72
+#, fuzzy
+#| msgid "Start Colibri at login"
+msgid "Start the Colibri notification system"
+msgstr "प्रवेशावेळी कोलिब्री सुरु करा"
+
+#: kcm/controlmodule.cpp:158
+msgid "Colibri is running."
+msgstr "कोलिब्री कार्यरत आहे"
+
+#: kcm/controlmodule.cpp:163
+msgid "No notification system is running."
+msgstr "सूचना प्रणाली चालू नाही."
+
+#: kcm/controlmodule.cpp:166
+#, kde-format
+msgid ""
+"The current notification system is %1. You must stop it to be able to start "
+"Colibri."
+msgstr "वर्तमान सूचना प्रणाली %1 आहे. कोलिब्री सुरु करण्याकरिता ती थांबविणे आवश्यक आहे."
+
+#: kcm/controlmodule.cpp:209
+#, fuzzy
+#| msgid "Preview"
+msgctxt "@title"
+msgid "Preview"
+msgstr "पूर्वावलोकन"
+
+#: kcm/controlmodule.cpp:210
+msgid "This is a preview of a Colibri notification"
+msgstr "हे कोलिब्री सूचनाचे पूर्वावलोकन आहे"
+
+#: kcm/controlmodule.cpp:224
+msgid "Screen under mouse"
+msgstr "माऊस खालील स्क्रीन"
+
+#: kcm/controlmodule.cpp:228
+#, kde-format
+msgid "Screen %1"
+msgstr "स्क्रीन %1"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: kcm/controlmodule.ui:17
+msgid "Status"
+msgstr "स्थिती"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoStart)
+#: kcm/controlmodule.ui:26
+msgid "Start Colibri at login"
+msgstr "प्रवेशावेळी कोलिब्री सुरु करा"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: kcm/controlmodule.ui:36
+msgid "Appearance"
+msgstr "दर्शनीयता"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kcm/controlmodule.ui:57
+msgid "Notification position:"
+msgstr "सूचना स्थान :"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kcm/controlmodule.ui:87
+msgid "Notification screen:"
+msgstr "सूचना स्क्रीन :"
+
+#. i18n: ectx: property (text), widget (QPushButton, previewButton)
+#: kcm/controlmodule.ui:116
+#, fuzzy
+#| msgid "Preview"
+msgctxt "@action:button"
+msgid "Preview"
+msgstr "पूर्वावलोकन"
+
+#. i18n: ectx: property (text), widget (QLabel, previewImpossibleLabel)
+#: kcm/controlmodule.ui:144
+msgid "Cannot preview because Colibri is not running."
+msgstr "कोलिब्री कार्यरत आहे त्यामुळे पुर्वावलोकन करू शकत नाही."
