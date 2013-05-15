@@ -1,3 +1,13 @@
+colibri (0.3.0-1) unstable; urgency=low
+
+  * [f316f48] ship upstream changelog
+  * [76ade96] add watch for lintian cleanliness
+  * [47a9bd8] Imported Upstream version 0.3.0
+  * [afb574a] Fix debian/watch.
+    Thanks to Bart Martens
+
+ -- Ritesh Raj Sarraf <rrs@debian.org>  Wed, 15 May 2013 17:24:05 +0530
+
 colibri (0.2.2-1) unstable; urgency=low
 
   * Initial release. (Closes: #651090)
