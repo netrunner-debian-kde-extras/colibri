@@ -6,6 +6,8 @@ Uploaders: Ritesh Raj Sarraf <rrs@debian.org>
 Build-Depends: debhelper (>= 7.0.50~), libqt4-dev (>= 4.4), kdelibs-bin, cmake, kdelibs5-dev, kdebase-workspace-dev, libx11-dev, libxext-dev
 Standards-Version: 3.9.2
 Homepage: http://kde-apps.org/content/show.php?content=117147
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/colibri.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/colibri.git
 
 Package: kde-notification-colibri
 Architecture: any
