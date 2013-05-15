@@ -3,7 +3,7 @@ Section: kde
 Priority: extra
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 Uploaders: Ritesh Raj Sarraf <rrs@debian.org>
-Build-Depends: debhelper (>= 9), cmake, kdelibs5-dev, libx11-dev, libxext-dev
+Build-Depends: debhelper (>= 9), pkg-kde-tools, cmake, kdelibs5-dev, libx11-dev, libxext-dev
 Standards-Version: 3.9.2
 Homepage: http://kde-apps.org/content/show.php?content=117147
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/colibri.git
