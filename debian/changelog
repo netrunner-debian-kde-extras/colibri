@@ -1,3 +1,17 @@
+colibri (0.3.0-2) unstable; urgency=low
+
+  * Team upload.
+  * [1224586] Add Vcs control fields.
+  * [fc1281e] Switch to debhelper compat level v9 which exports build flags.
+  * [53aa6c9] Enable parallel building.
+  * [78c5044] Append -Wl,--as-needed to LDFLAGS.
+  * [7b1e1cf] Remove unnecessary build-depends.
+  * [b7ef1d3] Use the pkg-kde-tools dh helper.
+  * [dc05437] Clarify the GPL version in debian/copyright.
+  * [c0111c5] Bump Standards-Version to 3.9.4, no changes needed.
+
+ -- Felix Geyer <fgeyer@debian.org>  Wed, 29 May 2013 22:40:05 +0200
+
 colibri (0.3.0-1) unstable; urgency=low
 
   * [f316f48] ship upstream changelog
